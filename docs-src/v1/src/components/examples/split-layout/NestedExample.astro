@@ -1,0 +1,27 @@
+<vscode-split-layout>
+  <div slot="start">Left</div>
+  <vscode-split-layout split="horizontal" slot="end">
+    <div slot="start">Right Top</div>
+    <div slot="end">Right Bottom</div>
+  </vscode-split-layout>
+</vscode-split-layout>
+
+<style>
+  vscode-split-layout {
+    height: 500px;
+    width: 500px;
+  }
+
+  vscode-split-layout > vscode-split-layout {
+    height: 100%;
+    width: 100%;
+  }
+
+  [slot="start"],
+  [slot="end"] {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+</style>

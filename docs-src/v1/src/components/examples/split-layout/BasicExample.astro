@@ -1,0 +1,19 @@
+<vscode-split-layout>
+  <div slot="start">Left</div>
+  <div slot="end">Right</div>
+</vscode-split-layout>
+
+<style>
+  vscode-split-layout {
+    height: 200px;
+    width: 500px;
+  }
+
+  [slot="start"],
+  [slot="end"] {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+</style>
