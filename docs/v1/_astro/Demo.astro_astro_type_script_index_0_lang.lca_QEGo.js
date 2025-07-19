@@ -1,4 +1,4 @@
-import{_ as i}from"./preload-helper.BlTxHScW.js";const v=String.raw;function E(n=""){const e=v`
+import{_ as i}from"./preload-helper.C5jaakcI.js";const v=String.raw;function E(n=""){const e=v`
     html {
       scrollbar-color: var(--vscode-scrollbarSlider-background)
         var(--vscode-editor-background);

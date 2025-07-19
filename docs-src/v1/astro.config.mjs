@@ -18,6 +18,7 @@ tags.async=!0,tags.src="https://szoftverhiba.containers.piwik.pro/"+id+".js"+qPS
 // https://astro.build/config
 export default defineConfig({
   site: "https://vscode-elements.github.io",
+  base: "/docs-archive/v1",
   outDir: '../../docs/v1',
   integrations: [
     starlight({
